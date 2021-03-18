@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pet Supermarket</title>
+	<link rel="stylesheet" type="text/css" href="../css/webpet.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<div class="row nav_1">
+	<!-------------------Logo----------------------->		
+			<a href=""><img class="logo" src="../images/logo_1.png"></a>
+	<!-------------------End Logo----------------------->
+	<!-------------------Nav----------------------->	
+			<ul class="nav justify-content-center">
+			 	<li class="nav-item">
+			    	<a class="nav-link active" href="E:/CODE/Webpet/html/webpet.html#">Trang chủ</a>
+			 	</li>
+			 	<li class="nav-item">
+			  	 	<a class="nav-link" href="E:/CODE/Webpet/html/menu.html">Danh mục</a>
+			  	</li>
+			  	<li class="nav-item">
+			  	 	<a class="nav-link" href="#">Mới</a>
+			  	</li>
+			  	<li class="nav-item">
+			   		<a class="nav-link" href="#">Đăng nhập</a>
+			  	</li> 	
+			</ul>
+	<!-------------------End Nav----------------------->
+	<!-------------------Search----------------------->		
+			<div class="search-box">
+				<input class="search-txt" type="text" name="" placeholder="Search">
+				<a class="search-btn" href="#">
+					<i class="fas fa-search"></i>
+				</a>
+			</div>
+	<!-------------------End Search---------------------->
+	<!-------------------Giỏ hàng---------------------->
+			<div class="shopping-cart">
+				<a class="shopping nav-link" href="#">
+					<i class="fas fa-shopping-cart"></i>
+				</a>
+			</div>
+	<!-------------------End Giỏ hàng---------------------->
+		</div>
+	<!-------------------Menu---------------------->
+		<div class="Menu">
+			<div class="row show-menu">
+	<!------------------Left-Menu---------------------->
+				<div class="col-sm-3 menu-left">
+					<p>Thú nuôi</p>
+					<ul class="menu-top menu-after">
+						<li class="small-menu"><a href="">Chó</a></li>
+						<li class="small-menu"><a href="">Mèo</a></li>
+						<li class="small-menu"><a href="">Chim</a></li>
+						<li class="small-menu"><a href="">Cá</a></li>
+						<li class="small-menu"><a href="">Chuột</a></li>
+						<li class="small-menu"><a href="">Rắn</a></li>
+					</ul>
+				
+					<p>Xem thêm</p>
+					<ul class="menu-top">
+						<li class="small-menu1"><a href="">Thức ăn thú cưng</a></li>
+						<li class="small-menu1"><a href="">Phụ kiện thú cưng</a></li>
+						<li class="small-menu1"><a href="">Chế độ chăm sóc</a></li>
+						<li class="small-menu1"><a href="">Cẩm nang nuôi thú cưng</a></li>
+						
+					</ul>
+				</div>
+	<!------------------Right-Menu---------------------->
+	
+				<div class="col-sm-9 slider-right">
+					<!----
+					
+					---->
+					<div class="container slide hi-slide" id="product">
+						<div class="hi-prev"></div>
+						<div class="hi-next"></div>
+						<div class="number-page" id="number-page">
+							<ul>
+								<li class="active">
+									<a href="">1</a>
+								</li>
+								<li>
+									<a href="">2</a>
+								</li>
+								<li>
+									<a href="">3</a>
+								</li>
+							</ul>
+						</div>
+			<!----			
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/dog_1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/cat_1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/chim-1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/chim-1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/chim-1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/chim-1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/chim-1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/chim-1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card middle">
+							<div class="front">
+								<img src="../images/chim-1.jpg">
+							</div>
+							<div class="back">
+								<div class="back-content middle">
+									<h4>Chó Corgi</h4>
+									<span>Chó Corgi đến từ Anh quốc <br>thân hình dài, 4 chân ngắn.</span>
+									<p>Giá: 1000$</p>
+									<div class="sm">
+										<a href="#"><i class="fas fa-shopping-cart"></i></a>
+										<a href="#"><i class="far fa-heart"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						---->
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+		
+
+	<!-------------------End menu---------------------->
+	</header>
+
+	
+
+	<script src="../my-javascript/jquery-3.3.1.min.js"></script>
+	<script src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="../my-javascript/jquery-ui/package.json"></script>
+	<script src="../js/webpet.js"></script>
+</body>
+</html>

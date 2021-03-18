@@ -1,0 +1,161 @@
+
+.logo{
+	width: 100px;
+	height: 40px;
+	margin-left: 50px;
+}
+
+.navbar{
+	background-color: blue;
+}
+/*transform: translate(-50%,-50%);*/
+/*
+.search-box{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	background: #2f3640;
+	height: 30px;
+	border-radius: 40px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0.6px;
+}
+.search-box:hover > .search-btn{
+	background: #fff;
+}
+.search-btn{
+	text-decoration: none;
+	color: #e84118;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 14px;
+	transition: 0.4s;
+	line-height: 30px;
+	width: 0px;
+}
+*/
+.search-box{
+	position: absolute;
+	right: 10%;
+	background-color: rgba(0,0,0,0.8);
+	height: 50px;
+	border-radius: 40px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0.6px;
+}
+.search-box:hover > .search-btn{
+	background: #fff;
+	color: #CC6600;
+}
+.search-btn{
+	color: #000;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;	
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 14px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+/*-----------------------welcome-----------------------*/
+.animation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.wavy{
+	line-height: 100vh;
+	position: relative;
+	font-weight: 900;
+	-webkit-box-reflect:below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.wavy span{
+	position: relative;
+	display: inline-block;
+	color: #000;
+	font-size: 30px;
+	text-transform: uppercase;
+	animation: animate 1s ease-in-out infinite;
+	animation-delay: calc(0.08s * var(--i));
+}
+@keyframes animate{
+	0%{
+		transform: translateY(0px);
+	}
+	20%{
+		transform: translateY(-20px);
+	}
+	40%, 100%{
+		transform: translateY(0px);
+	}
+	
+}
+
+/*=====================pet supermarket======================*/
+.pet{
+	display: block;
+}
+h2{
+	position: relative;
+	font-size: 20px;
+	font-weight: : 700;
+	z-index: 1;
+	overflow: hidden;
+
+}
+h2:before{
+
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+}
+h2 span{
+	color: #ff022c;
+}
